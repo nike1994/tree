@@ -1,0 +1,16 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+
+    "scripts": {
+        "test": "phpunit test",
+        "start": "php src/main.php"
+    }
+}
